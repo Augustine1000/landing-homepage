@@ -1,10 +1,54 @@
 * {
     background-color: #0D1520;
-    width: 1440px;
-    height: 4670px;
-    margin-top: -459px;
-    margin-left: 1257px;
+    
+    gap: 0px;
+    opacity: 0px;
+    
 }
+#top {  
+    
+    gap: 0px;
+    justify-content: space-between;
+     opacity: 0px;
+}
+
+.logo {
+    width: 151px;
+    height: 32px;
+    gap: var(--spacing3);
+    opacity: 0px;
+
+}
+
+.nav-links,.btn {
+    display: flex;
+    width: 481px;
+    height: 44px;
+    gap: 60px;
+    opacity: 0px;
+
+}
+
+#properties,#Agent,#Blog{
+    color: white;
+    font-family:sans-serif ;
+}
+
+.btn{
+    width:90px;
+    height: 35px;
+    border-color: blue;
+    border-radius: 10%;
+    color: aliceblue;
+    
+}
+
+
+#login-page{
+    height:3px;
+
+}
+
 
 
 
