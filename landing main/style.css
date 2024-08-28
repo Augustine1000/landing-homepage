@@ -380,6 +380,10 @@ h5{
 
 }
 
+.grin{
+    background-color: #0090ff;
+}
+
 .new-home{
     justify-content: center;
     color: #EEEE;
@@ -943,14 +947,31 @@ h3{
 }
 
 
-.top{
+.tops{
     display: flex;
     width: 342px;
     height: 20px;
     gap: 24px;
     opacity: 0px;
-    
-    flex-direction: row;
+    background-color: #0D2847;
+
+}
+
+
+.good{
+    width: 84px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    background-color: #0D2847;
+    color: #C2E6FF;
+        
 }
 
 
