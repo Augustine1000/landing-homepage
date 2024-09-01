@@ -1,12 +1,9 @@
 * {
+    box-sizing: border-box;  
+}
+body{
     background-color: #0D1520;
-    width: auto;
-    height: auto;
-    gap: 0px;
-    opacity: 0px;
-    gap: 0px;
-    opacity: 0px;
-    
+
 }
 header{
     width: 100%;
@@ -20,6 +17,19 @@ header{
     opacity: 0px;
 }
 
+.hamburger-menu{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
 .navy{
     display: flex;
     justify-content: center;
@@ -31,7 +41,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
     height: auto;
     gap: 12px;
     opacity: 0px;
@@ -110,6 +119,7 @@ header{
 .luxury{
     height: auto;
     width: 100%;
+    
 }
 .login{
     
@@ -146,6 +156,10 @@ h1{
     letter-spacing: 0.005em;
     text-align: left;
     color: #B4B4B4;
+}
+.history{
+    display: flex;
+    
 }
 
 #loginup,#get-started{
@@ -195,17 +209,16 @@ h1{
     display: flex;
     width: 100%;
     height:auto;
-    padding: 50px, 20px;
+    /* padding: 50px, 20px; */
     gap: 0px;
     
 
 }
 
 .then{
-    
     display: flex;
-    height: auto ;
-    padding: 50px;
+    overflow: hidden;
+    height: auto;
     gap: 50px;
     opacity: 0px;
     color: #EEEE;
@@ -235,8 +248,6 @@ h2{
 }
 
 p{
-    width: 600px;
-    height: 84px;
     gap: 0px;
     opacity: 0px;
     font-family: Georgia;
@@ -257,18 +268,18 @@ h5{
 }
 
 .house-one{
+    overflow: hidden;
     display: flex;
     width: 100%;
-    height: auto;
-    gap: 0px;
-    border-radius: 14px;
-    opacity: 0px;
+   
     
 }
 
 .imagetwo{
+    object-fit: cover;
     height: auto;
     width: 100%;
+    padding: 0;
 }
 
 
@@ -387,8 +398,6 @@ h5{
 .new-home{
     justify-content: center;
     color: #EEEE;
-    width: 155px;
-    height: 28px;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
@@ -403,8 +412,6 @@ h5{
 
 .donec{
     color: #EEEE;
-    width: 220px;
-    height: 89px;
     gap: 0px;
     opacity: 0px;
     font-family:'Lucida Sans';
@@ -496,41 +503,34 @@ h5{
     justify-content: left;
     width: 100%;
     gap: 20px;
-    background-color: #C2E6FF;   
     border-radius: 24px;
 }
 .ad{
-    border-radius: 24px;
+    display: flex;
     gap: 24px;
+    flex-direction: column;
 }
 
 .Award-1{
     display: flex;
-    width: 350px;
-    height:100px;
-    border-radius: 24px;
-    padding: 30px;
-    background-color: #C2E6FF;
+    
    
 }
 
 .old{
     display: flex;
-    width: 350px;
-    height: 80px;
     gap:20px;
-    opacity: 0px;
-    background-color: #C2E6FF;
-    ;
-    
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #C2E6FF; 
+    padding:10px;
+    border-radius: 24px;
+
 }
 
 .don{
     flex-direction: column;
     text-align: justify;
-    width: 300px;
-    height: 80px;
-    background-color: #C2E6FF;
     gap: 6px;
 }
 
@@ -544,9 +544,10 @@ h5{
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.005em;
+    margin: 0;
     text-align: left;
     color: #205D9E;
-    background-color: #C2E6FF;
+    /* background-color: #C2E6FF; */
 
 }
 
@@ -562,7 +563,7 @@ h5{
     letter-spacing: 0.005em;
     text-align: left;
     color: #205D9E;
-    background-color: #C2E6FF;
+    /* background-color: #C2E6FF; */
 }
 
 .glass{
@@ -571,7 +572,7 @@ h5{
     gap: 0px;
     border: 3px 0px 0px 0px;
     opacity: 0px;
-    background-color: #C2E6FF;    
+   
 }
 
 
@@ -705,9 +706,6 @@ h5{
 
 .bow{
     display: flex;
-    position: absolute;
-    right: 0;
-    bottom: 0;
     height:auto;
     width: 240px; ;
     gap: 12px;
@@ -745,57 +743,45 @@ h5{
     display: flex;
     gap: 34px;
     width: 100%;
-    height: 496px;
+    /* height: 496px; */
 }
 
 
 .house1{
     display: flex;
     height: auto;
-    width: 300px;
+    flex-direction: column;
     padding: 50px 20px;
     gap: 20px;
-    flex-direction: column;
+    
 }
 
 .jar{
     flex-direction: column;
-    width: 235px;
-    height: 96px;
     gap: 16px;
 }
 
 .op{
-    width: 82px;
-    height: 32px;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
     font-size: 24px;
     font-weight: 700;
-    line-height: 32px;
     letter-spacing: 0.005em;
     text-align: left;
     color: #EEEE;
 }
 
 .haven{
-    width: 226px;
-    height: 28px;
-    gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
     font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0.005em;
     text-align: left;
     color: #EEEE;
 }
 
 .ten{
-    width: 235px;
-    height: 24px;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
@@ -817,17 +803,11 @@ h5{
     opacity: 0px;
 }
 .bedroom{
-    margin-top: 50px;
-    width: 80px;
-    height:24px;
     gap: 8px;
     color: #EEEE;
 }
 
 .bathroom{
-    margin-top: 50px;
-    width: 80px;
-    height:24px;
     gap: 8px;
     color: #EEEE;
 }
@@ -840,7 +820,6 @@ footer{
 .links{
     width: 100%;
     height:auto;
-    margin: left 50px;
     padding: 80px 0px 80px 0px;
     gap: 80px;
     border: 1px 0px 0px 0px;
@@ -856,17 +835,14 @@ footer{
 }
 
 .key{
+    display: flex;
     flex-direction: column;
     justify-content: right;
-    width:189px;
-    height:222px;
     gap: 28px;
     opacity: 0px;
 }
 
 .address{
-    width: 190px;
-    height: 48px;
     gap: 0px;
     opacity: 0px;
     font-family: Noto Sans;
@@ -878,8 +854,6 @@ footer{
 }
 
 .Quicklinks{
-   width:113px;
-    height: 226px;
     gap: 24px;
     opacity: 0px;
      
@@ -887,9 +861,8 @@ footer{
 
 .road{
     list-style-type: none;  
-    width:113px;
-    height:174px;
     gap:6px;
+    padding: 0;
     opacity: 0px;
     font-family: Urbanist;
     font-size: 16px;
@@ -902,8 +875,6 @@ footer{
 
 h3{
     margin-right: 40px;
-    width: 101px;
-    height: 28px;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
@@ -917,7 +888,6 @@ h3{
 
 .footer{
     width:100%;
-    height: 64px;
     gap: 80px;
     opacity: 0px;
     background-color: #0D2847;
@@ -926,14 +896,11 @@ h3{
 .fan{
     display: flex;
     width:100%;
-    height: 20px;
     justify-content: space-between;
     background-color: #0D2847;
 }
 
 .six{
-    width: 260px;
-    height: 20px;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
@@ -949,8 +916,6 @@ h3{
 
 .tops{
     display: flex;
-    width: 342px;
-    height: 20px;
     gap: 24px;
     opacity: 0px;
     background-color: #0D2847;
@@ -975,6 +940,55 @@ h3{
 }
 
 
+@media(max-width: 768px){
+   .navy{
+    display: none;
+   }
+   .hamburger-menu{
+    display: flex;
+   }
+   .one{
+    display: flex;
+    flex-direction:column-reverse;
+   }
+   .history{
+    flex-direction: column;
+    }
+    .then{
+        flex-direction: column-reverse;
+    }
+    .service{
+        flex-direction: column;
+        gap: 34px;
+
+    }
+    .service-grid{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .power{
+        flex-direction: column;
+    }
+    .colon{
+        flex-direction: column;
+    }
+    .look{
+        flex-direction: column;
+    }
+    .upper{
+        flex-direction: column;
+    }
+    .fan{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+}
 
 
 
